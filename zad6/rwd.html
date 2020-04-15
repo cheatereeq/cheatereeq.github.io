@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <title>Responsive Web Design | Piotr Jasiński</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="subtitle">
+                    How to make your Website
+                </div>
+                <div class="title">
+                    Responsive
+                </div>
+            </div>
+        </header>
+        <div class="nav">
+            <a href="#1">
+                <div class="navbox">
+                    What id RWD
+                </div>
+            </a>
+            <a href="#2">
+                <div class="navbox">
+                    Tags
+                </div>
+            </a>
+            <a href="#3">
+                <div class="navbox">
+                    Media tag
+                </div>
+            </a>
+            <a href="#4">
+                <div class="navbox">
+                    Size of Website
+                </div>
+            </a>
+            <a href="#5">
+                <div class="navbox">
+                    Summary
+                </div>
+            </a>
+        </div>
+        <img src="img/image.png" alt="How RWD looks like?">
+        <div class="article">
+            <div class="article_title" id="1">
+                What is Responsive Web Design?
+            </div>
+            <div class="description">
+                Nowadays, we use the Internet not only on desktop computers but above all on mobile devices such as smartphones, smartwatches or laptops. The demand for websites adapted to mobile devices is constantly growing. Mobile phones have a completely different screen resolution, that's why websites created for computers look bad on smartphones. Writing several pages for different screens is too time consuming, so a new way was created that allowed defining a different page appearance for other devices in one project.
+            </div>
+            <div class="article_title" id="2">
+                What tags should be used in RWD?
+            </div>
+            <div class="description">
+                There are several tags that you should be able to use to write a good responsive website:
+                <ul>
+                    <li>@media</li>
+                    <li>vh</li>
+                    <li>vw</li>
+                    <li>initial-scale</li>
+                </ul>
+            </div>
+            <div class="article_title" id="3">
+                Media tag
+            </div>
+            <div class="description">
+                The @media tag is most important when creating a responsive website. Used to define the appearance of the page for different screen resolutions. It is used in external styles. To make the site work well on different devices, use it several times each time designing the site for different resolutions.<br> Correctly written code should look like this:<br>
+                <a id="rozowy">@media</a> (<a id="niebieski">min-width</a>: <a id="zielony">768px</a>){<br>
+                    <a id="zolty">&nbsp;&nbsp;&nbsp;.title</a>{<br>
+                        <a id="niebieski">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-size</a>: <a id="zielony">6vw</a>;<br>
+                        &nbsp;&nbsp;&nbsp;}<br>
+                <p></p>
+                    <a id="zolty">&nbsp;&nbsp;&nbsp;.subtitle</a>{<br>
+                        <a id="niebieski">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-size</a>: <a id="zielony">3vw</a>;<br>
+                        &nbsp;&nbsp;&nbsp;}<br>
+                }
+            </div>
+            <div class="article_title" id="4">
+                Size of website
+            </div>
+            <div class="description">
+                Typically, pages are written for desktops, laptops, tablets and smartphones. The following resolutions are the borders for different versions of the page:
+                <ul>
+                    <li>576px - smartphone</li>
+                    <li>768px - tablets</li>
+                    <li>992px - laptops</li>
+                    <li>1200px - desktop PC</li>
+                </ul>
+            </div>
+            <div class="article_title" id="5">
+                Summary
+            </div>
+            <div class="description">Nowadays RWD is developing dynamically. Most of the sites known to us can be viewed on the above devices. Depending on the size of the device, the various elements on the page take on a different look. It often happens that some elements are too burdensome for smartphones, so the developers remove them from the phone version. To sum up - knowledge of RWD is necessary to create a good website regardless of the screen on which it will be displayed.</div>
+        </div>
+        <footer>
+            <div class="footer">   
+                <div class="left">
+                    <p>Responsive Web Design</p>
+                    <p><i>Piotr Jasiński</i></p>
+                </div>
+                <div class="footerline">
+                </div>
+                <div class="adress">
+                    <address>
+                        Projekty dostępne na: <a href="https://github.com/cheatereeq/cheatereeq.github.io/" id="github">Github Pages</a><br>
+                        Autor strony: Piotr Jasiński 1PTB<br>
+                        Technikum Mechatroniczne nr. 1<br>
+                        Wiśniowa 56<br>
+                        Warszawa, 02-520<br>
+                        POLSKA<br>
+                    </address>
+                </div>   
+                
+            </div>
+        </footer>
+    </body>
+</html>
