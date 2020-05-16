@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz - kurs grafiki | Piotr Jasiński</title>
+
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+</head>
+<body>
+    <div class="mianbox">
+        <header>
+            <div class="title">
+                <h1>Kurs grafiki Komputerowej</h1>
+            </div>
+        </header>
+
+        <main id="form">
+            <div class="formbox">
+                <div class="description">
+                    <h2>Zgłoszenia:</h2>
+                    Zapraszamy do uzupełnienia krórkiego formularza, który pozwoli ci zapisać się na kurs z zakresu grafiki komputerowej. Nauczysz się na nim podstaw programu Adobe Photoshop, obróbki zdjęć i fotomontażu. Zakres wiedzy jest odpowiedni dla osób, które nie miały wcześniej styczności z grafiką. Zachęcamy do udziału w kursie.
+                </div>
+                <div class="item3">
+                    <form action="subIndex.html" method="GET">
+
+                        <div class="form1">
+
+                            <label for="name">Imię:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Twoja odpowiedź" required=""><br>
+                            <label for="surname">Nazwisko:</label><br>
+                            <input type="text" id="surname" name="surname" placeholder="Twoja odpowiedź" required=""><br>
+                            <label for="mail">Adres E-mail:</label><br>
+                            <input type="text" id="mail" name="mail" placeholder="Twoja odpowiedź" required=""><br>
+                            <label for="code">Kod pocztowy:</label><br>
+                            <input type="text" id="code" name="code" placeholder="Twoja odpowiedź" required=""><br><br>
+            
+
+                            <label for="gender">Płeć:</label><br>
+
+                            <div id="gender">
+
+                                <label class="container">Mężczyzna
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Kobieta
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>    
+
+
+                        <div class="form2">
+                            <label for="city">Miasto:</label><br>
+
+                            <div id="city">
+
+                            <select id="cities" name="cities">
+                                <option value="warszawa">Warszawa</option>
+                                <option value="poznan">Poznań</option>
+                                <option value="krakow">Kraków</option>
+                                <option value="wroclaw">Wrocław</option>
+                            </select><br>
+
+                            </div>
+
+                            <label for="fname" id="question">Pytania/Uwagi</label><br>
+                            <textarea id="additional" name="additional" placeholder="Twoja odpowiedź"></textarea>
+
+                        </div>
+                        <div class="buttons">
+                            <div class="button">
+                                <input type="submit" value="Wyślij">
+                                <input type="reset" value="Reset">
+                            </div>
+                        </div>
+                    
+                    </form> 
+                </div>  
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <address>
+                Projekty dostępne na: <a href="https://github.com/cheatereeq/cheatereeq.github.io/">Github Pages</a><br>
+                Autor strony: Piotr Jasiński 1PTB<br>
+                Technikum Mechatroniczne nr. 1<br>
+                Wiśniowa 56<br>
+                Warszawa, 02-520<br>
+                POLSKA<br>
+            </address></div>
+        </footer>  
+
+    </div>
+
+</body></html>

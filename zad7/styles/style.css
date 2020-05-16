@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.mainbox{
+    width: 100vw;
+}
+body{
+    background-color: #99bbff;
+    font-family: 'Ubuntu';
+}
+header{
+    text-align: center;
+}
+.title{
+    font-size: 8vh;
+    background-color: 	#90a7d5;
+    width: 100%;
+    height: 40vh;
+    margin: 0px;
+    padding-top: 10vh;
+    border-radius: 15px;
+    color: azure;
+}
+h1{
+    margin: 0px;
+}
+h2{
+    font-size: 5vh;
+    margin: 0px;
+    padding-bottom: 1vh;
+}
+.description{
+    font-size: 3vh;
+    text-align: center;
+    color: burlywood;
+    background-color: #001133;
+    margin-top: 1vh;
+    height: 30vh;
+    width: 100%;
+    padding-top: 8vh;
+}
+.form1{
+    font-size: 3vh;
+    float: left;
+    margin-top: 2vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 50vw;
+    height: 65vh;
+    text-align: start;
+    padding-left: 10%;
+}
+.form2{
+    font-size: 3vh;
+    float: left;
+    margin-top: 2vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 50vw;
+    height: 80vh;
+    text-align: start;
+    padding-left: 10%;  
+}
+.item3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+input[type=text]{
+    width: 90%;
+    height: 8%;
+    border-radius: 15px;
+    margin-bottom: 8%;
+    padding-left: 2%;
+}
+#cities{
+    width: 70%;
+    height: 8%;
+    margin-bottom: 8%;
+    padding-left: 2%;
+    border-radius: 15px;
+}
+#additional{
+    width: 80%;
+    height: 50%;
+    padding: 2%;
+    border-radius: 15px;
+}
+#gender{
+    font-size: 2vh;
+}
+.buttons{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"]{
+    text-align: center;
+    font-size: 4vh;
+    color: whitesmoke;
+    background-color: green;
+    width: 150%;
+    height: 150%;
+    border-radius: 15px;
+    margin-bottom: 6vh;
+    padding: 3%;
+}
+input[type="reset"]{
+    background-color: red;
+    border-radius: 15px;
+    font-size: 4vh;
+    color: whitesmoke;
+    width: 150%;
+    margin-bottom: 6vh;
+    margin-left: 10vw;
+    padding: 3%;
+}
+input[type="submit"]:hover{
+    border-radius: 20px;
+}
+input[type="reset"]:hover{
+    border-radius: 20px;
+}
+
+.footer {
+    text-align: right;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10%;
+    background-color: #90a7d5;
+    float: left;
+    padding: 1%;
+    border-radius: 20px;
+}
+/*-----MEDIA-----*/
+@media (max-width: 575px){
+    .title{
+        font-size: 3vh;
+        height: auto;
+        padding: 2vh;
+    }
+    .description{
+        height: auto;
+        padding: 1vh;
+    }
+}
+@media (min-width: 576px){
+    .title{
+        font-size: 4vh;
+        height: auto;
+        padding: 3vh;
+    }
+    .description{
+        height: auto;
+        padding: 1vh;
+    }
+}
+@media (min-width: 768px){
+    .title{
+        font-size: 5vh;
+        height: auto;
+        padding: 4vh;
+    }
+    .description{
+        padding: 3vh;
+    }
+}
+@media (min-width: 992px){
+    .title{
+        font-size: 7vh;
+        height: auto;
+        padding: 5vh;
+    }
+    .description{
+        padding: 5vh;
+    }
+}
+@media (min-width: 1200px){
+    .title{
+        font-size: 8vh;
+        background-color: 	#90a7d5;
+        width: 100%;
+        height: 40vh;
+        margin: 0px;
+        padding-top: 10vh;
+        border-radius: 15px;
+        color: azure;
+    }
+    .description{
+        font-size: 3vh;
+        text-align: center;
+        color: burlywood;
+        background-color: #001133;
+        margin-top: 1vh;
+        height: 30vh;
+        width: 100%;
+        padding-top: 8vh;
+    }
+}
